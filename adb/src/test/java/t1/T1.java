@@ -18,4 +18,10 @@ public class T1 {
         
         assertEquals(-1,C1.findMax(new int[]{-12,-1,-3,-4,-2}));  
     }
+    @Test  
+    public void t3(){  
+        
+        assertEquals(5,C1.findMax(new int[]{1,2,3,4,5}));  
+    }
+    
 }  
