@@ -23,5 +23,10 @@ public class T1 {
         
         assertEquals(5,C1.findMax(new int[]{1,2,3,4,5}));  
     }
+    @Test  
+    public void t4(){  
+        
+        assertEquals(5,C1.findMax(new int[]{1,2,3,4,5}));  
+    }
     
 }  
